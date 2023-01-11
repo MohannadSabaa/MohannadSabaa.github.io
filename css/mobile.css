@@ -83,6 +83,9 @@ font-size: 2rem;
      .form-container label{
             margin-left: 1rem;
             }
+   .form-container h1 {
+        font-size:25px
+    }
          .socials a{
             background-color: unset;
             font-size: 20px;
