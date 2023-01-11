@@ -1,9 +1,30 @@
 /* MOBILE SECREENS */
 @media screen and (min-width:350px) and (max-width:619px)  {
-   nav {
-    width: 70%;
-    left: 15%;
-   }
+   
+    .clock-box {
+        
+       
+    display: none;
+      
+    }
+    .full{
+        display: none;
+    }
+    nav {
+    
+        /* background-color: rgba(199, 192, 192, 0.921); */
+        position: fixed;
+        top:0;
+        left:0;
+        display: flex;
+       width: 100%;
+        background-color: #dbd4cb;
+        /* height: 4rem; */
+        padding: 0 .5rem;
+        font-size: 20px;
+      
+    }
+ 
     .coding,
     .socials p,
     .socials span{
