@@ -27,7 +27,7 @@
         top: 15rem;
         left:-50px;
         /* right: 2.5rem; */
-        font-size: 5rem; 
+        font-size: rem; 
         z-index: 40;
        
     }
@@ -59,7 +59,7 @@ grid-column: 1/2;
    grid-row: 1/2;
  }
  .why__heading {
-font-size: 1.5rem;
+font-size: 1.2rem;
    
  }
  .why__list {
@@ -93,7 +93,7 @@ font-size: 1.5rem;
             margin-left: 1rem;
             }
     .form-container h1 {
-        font-size:23px
+        font-size:25px
     }
          .socials a{
             background-color: unset;
