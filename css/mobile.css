@@ -24,15 +24,18 @@
 
     }
     .mohannad {
-        top: 18rem;
-        left: -2rem;
+        top: 15rem;
+        left:-50px;
+        /* right: 2.5rem; */
         font-size: 6rem; 
+        z-index: 40;
        
     }
     .sabea {
-        left: 10rem;
-        top: 22rem;
+        left: 8rem;
+        top: 21rem;
         font-size: 6rem;
+        z-index:70;
 
     }
     .details {
