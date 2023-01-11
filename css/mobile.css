@@ -12,8 +12,10 @@
 
 
     #who {
-        margin-left: 2rem;
-        top:29rem;
+        /* margin-left: 2rem; */
+        
+        top:14.5rem;
+        right: 3.5rem;
         font-size: 6.5rem;
         
     }
@@ -22,19 +24,19 @@
 
     }
     .mohannad {
-        top: 30rem;
-        left: 0rem;
+        top: 18rem;
+        left: -2rem;
         font-size: 6rem; 
        
     }
     .sabea {
-        left: 14rem;
-        top: 36rem;
+        left: 10rem;
+        top: 22rem;
         font-size: 6rem;
 
     }
     .details {
-       top:48rem;
+       top:34rem;
        left:0;
         font-size: 1.5rem;
         padding: .2rem;
@@ -54,7 +56,7 @@ grid-column: 1/2;
    grid-row: 1/2;
  }
  .why__heading {
-font-size: 2rem;
+font-size: 1.5rem;
    
  }
  .why__list {
@@ -76,6 +78,10 @@ font-size: 2rem;
     grid-template-columns: repeat(2,1fr);
     box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.311);
  }
+ #footer-container {
+    gap:3px
+ }
+
 #footer-container
  .form-container button {
             font-size: 14px;
@@ -83,7 +89,7 @@ font-size: 2rem;
      .form-container label{
             margin-left: 1rem;
             }
-   .form-container h1 {
+    .form-container h1 {
         font-size:25px
     }
          .socials a{
