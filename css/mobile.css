@@ -1,0 +1,93 @@
+/* MOBILE SECREENS */
+@media screen and (max-width:619px)  {
+   nav {
+    width: 70%;
+    left: 15%;
+   }
+    .coding,
+    .socials p,
+    .socials span{
+        display: none;
+    }
+
+
+    #who {
+        margin-left: 2rem;
+        top:29rem;
+        font-size: 6.5rem;
+        
+    }
+    .personal-info {
+        width: 90%;
+
+    }
+    .mohannad {
+        top: 30rem;
+        left: 0rem;
+        font-size: 6rem; 
+       
+    }
+    .sabea {
+        left: 14rem;
+        top: 36rem;
+        font-size: 6rem;
+
+    }
+    .details {
+       top:48rem;
+       left:0;
+        font-size: 1.5rem;
+        padding: .2rem;
+       
+        
+    }
+#skills-services{
+    height: 900px;
+   padding: 1rem 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    justify-content: center;
+   
+}
+  .why{  
+grid-column: 1/2;
+   grid-row: 1/2;
+ }
+ .why__heading {
+font-size: 2rem;
+   
+ }
+ .why__list {
+  padding: 1rem 2rem;
+    font-size: 20px;
+ }
+ .services {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin:auto;
+    height: 470px;
+   
+ }
+ .skills {
+    height: 85%;
+    /* border: 1px solid black; */
+    /* box-shadow: inset 0 0 1px 1px black; */
+    overflow-y: scroll;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.311);
+ }
+#footer-container
+ .form-container button {
+            font-size: 14px;
+         }
+     .form-container label{
+            margin-left: 1rem;
+            }
+         .socials a{
+            background-color: unset;
+            font-size: 20px;
+         }
+            .legal a {
+                font-size: 14px;
+            }
+}

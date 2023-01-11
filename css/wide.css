@@ -1,0 +1,34 @@
+@media screen and (min-width: 1201px) and (max-width: 1770px) {
+
+    #who {
+        z-index: 3;
+    }
+    .personal-info{
+        width:90%;
+        z-index: 3;
+    }
+    .mohannad{
+        top:19rem;
+    }
+    .sabea{
+        top:26rem;
+    }
+    .details{
+        font-size: 3rem;
+        top: 40rem;
+    }
+    
+    .coding{
+        position: absolute;
+        opacity: .18;
+        top:6rem;
+        right:0;
+    }
+      
+    .why__heading{
+        font-size: 40px;
+    }
+    .services{
+        width: 100%;
+    }
+    }
