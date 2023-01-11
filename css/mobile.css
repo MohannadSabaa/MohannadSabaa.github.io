@@ -141,6 +141,7 @@ padding:0;
 }
  
  .socials {
+    grid-row:2/3;
     display: flex;
     margin-top: .5rem;
     justify-content: center;
