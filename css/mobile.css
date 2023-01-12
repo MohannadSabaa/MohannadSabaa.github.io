@@ -154,11 +154,11 @@ padding:0 .75rem;
 
 }
 #sections-box {
-width: 98%;
+width:100%;
 font-family: 'carter one';
 font-size: 13px;
-background-color: unset;
-border: unset;
+
+
 margin:auto;
 margin-top: 4rem;
 padding: 1rem;
@@ -166,6 +166,7 @@ padding: 1rem;
 }
 
 .legal-container {
+    
 margin-bottom: 2rem;
 box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.181);
 border-radius: 5px;
