@@ -63,7 +63,7 @@ button {
 }
 .clock-box {
     color: rgb(79, 73, 73);
-    padding: .3rem 2rem;
+    padding: .3rem 1rem;
     font-size: 40px;
     font-family: Anton;
     line-height: 38px;
@@ -91,7 +91,6 @@ button {
 }
  nav {
     
-    /* background-color: rgba(199, 192, 192, 0.921); */
     position: fixed;
     top:1rem;
     left:10%;
@@ -224,7 +223,7 @@ nav ul{
 .why{
     
     grid-column: 1/2;
-    grid-row:1/3;
+    /* grid-row:1/3; */
     align-self: center;
 }
 
