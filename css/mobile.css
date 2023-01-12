@@ -1,178 +1,127 @@
-/* MOBILE SECREENS */
-@media screen and (min-width:350px) and (max-width:619px)  {
-   
-#main {
-    height: 100vh;
-}
-    nav {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            padding: 3rem 3rem;
+            background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23ffa600' fill-opacity='0.22' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    #sections-box {
+        width: 70%;
+        font-family: 'carter one';
+        font-size: 18px;
+        border-radius: 10px;
+        margin:auto;
+        padding: 2rem;
+        
+    }
     
-        /* background-color: rgba(199, 192, 192, 0.921); */
-        position: fixed;
-        top:0;
-        left:0;
-        display: flex;
-       width: 100%;
-        background-color: #dbd4cb;
-        /* height: 4rem; */
-        padding: 0 .5rem;
-        font-size: 20px;
+    .legal-container {
+        margin-bottom: 2rem;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.181);
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        padding: 1rem 1rem;
+        
+    }
+    .legal-container h1 {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    </style>
+    <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Legal</title>
+</head>
+<body>
+<section id="clock-nav" class=" section-fa-code ">
+    <nav>
+        <h1 id="logo"><i class="fa-solid fa-code"></i></h1>
+        
+        <ul class="links">
+            <li class="link"><a href="/index.html"><i class="fa-solid fa-house "></i></a></li>
+            <li class="link"><i class="fa-solid fa-address-card"></i></li>
+            <li class="link"><i class="fa-solid fa-link "></i></li>
+        </ul>
+    </nav>
+    <div class="clock-box"></div>
+    </section>
+<section id="container">
+    <section id="sections-box"> 
+        <section id="terms-conditions">
       
-    }
-.clock-box,
-.full,
-.coding,
-.socials p,
-.socials span{display: none;}
-
-    #who {
-        /* margin-left: 2rem; */
+            <div class="legal-container">
+                <h1>Terms & Condtions</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate iste aspernatur, libero modi est illo recusandae veniam. Animi minus consectetur qui omnis fugit officiis dicta tempora neque. Aperiam quam temporibus quidem optio, ipsum, nam quo voluptates, officia aspernatur velit reprehenderit vel nihil iusto ea! Impedit ducimus est blanditiis pariatur soluta magni. Sint, sapiente, cupiditate quis accusantium aspernatur dicta facilis sunt animi facere laborum optio deserunt eos, ipsa iure eaque corrupti at aliquid sequi magni veritatis nostrum repudiandae repellendus? Ab mollitia vero ut rerum, dolorum sequi non quae, numquam consequuntur fugiat, quis distinctio consectetur. Possimus quam rem pariatur quaerat quod mollitia cupiditate ipsam illum cum laudantium facere totam officia placeat quis, eos unde nihil ad sit? Totam accusamus odio itaque, cum reiciendis earum atque beatae sequi fugiat nesciunt vitae nobis minima iure non exercitationem omnis cumque dicta sed neque aspernatur officiis quis facilis. Laborum corrupti aut dolor voluptates, at officiis, optio recusandae temporibus nulla atque totam nobis iste numquam dolore sunt reiciendis, placeat voluptatum earum enim sed facilis? Cupiditate cumque ea ratione, fuga soluta iure dolorem sequi in omnis consequatur odio tempore incidunt nostrum porro nesciunt consectetur dolores. Sequi fugit obcaecati, minus iusto quasi dolor cumque sed tempora possimus sit.</p>
+            </div>
+        </section>
         
-        top:15rem;
-        right: 3.5rem;
-        font-size: 6rem;
-        padding:0;
-        margin-left:1rem;
+    <section id="privacy">
+        <div class="legal-container">
+            <h1>Privacy policy</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate iste aspernatur, libero modi est illo recusandae veniam. Animi minus consectetur qui omnis fugit officiis dicta tempora neque. Aperiam quam temporibus quidem optio, ipsum, nam quo voluptates, officia aspernatur velit reprehenderit vel nihil iusto ea! Impedit ducimus est blanditiis pariatur soluta magni. Sint, sapiente, cupiditate quis accusantium aspernatur dicta facilis sunt animi facere laborum optio deserunt eos, ipsa iure eaque corrupti at aliquid sequi magni veritatis nostrum repudiandae repellendus? Ab mollitia vero ut rerum, dolorum sequi non quae, numquam consequuntur fugiat, quis distinctio consectetur. Possimus quam rem pariatur quaerat quod mollitia cupiditate ipsam illum cum laudantium facere totam officia placeat quis, eos unde nihil ad sit? Totam accusamus odio itaque, cum reiciendis earum atque beatae sequi fugiat nesciunt vitae nobis minima iure non exercitationem omnis cumque dicta sed neque aspernatur officiis quis facilis. Laborum corrupti aut dolor voluptates, at officiis, optio recusandae temporibus nulla atque totam nobis iste numquam dolore sunt reiciendis, placeat voluptatum earum enim sed facilis? Cupiditate cumque ea ratione, fuga soluta iure dolorem sequi in omnis consequatur odio tempore incidunt nostrum porro nesciunt consectetur dolores. Sequi fugit obcaecati, minus iusto quasi dolor cumque sed tempora possimus sit.</p>
+        </div>
+    </section>
+    <section id="terms-use">
+        <div class="legal-container">
+            <h1>Terms of Use</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cupiditate iste aspernatur, libero modi est illo recusandae veniam. Animi minus consectetur qui omnis fugit officiis dicta tempora neque. Aperiam quam temporibus quidem optio, ipsum, nam quo voluptates, officia aspernatur velit reprehenderit vel nihil iusto ea! Impedit ducimus est blanditiis pariatur soluta magni. Sint, sapiente, cupiditate quis accusantium aspernatur dicta facilis sunt animi facere laborum optio deserunt eos, ipsa iure eaque corrupti at aliquid sequi magni veritatis nostrum repudiandae repellendus? Ab mollitia vero ut rerum, dolorum sequi non quae, numquam consequuntur fugiat, quis distinctio consectetur. Possimus quam rem pariatur quaerat quod mollitia cupiditate ipsam illum cum laudantium facere totam officia placeat quis, eos unde nihil ad sit? Totam accusamus odio itaque, cum reiciendis earum atque beatae sequi fugiat nesciunt vitae nobis minima iure non exercitationem omnis cumque dicta sed neque aspernatur officiis quis facilis. Laborum corrupti aut dolor voluptates, at officiis, optio recusandae temporibus nulla atque totam nobis iste numquam dolore sunt reiciendis, placeat voluptatum earum enim sed facilis? Cupiditate cumque ea ratione, fuga soluta iure dolorem sequi in omnis consequatur odio tempore incidunt nostrum porro nesciunt consectetur dolores. Sequi fugit obcaecati, minus iusto quasi dolor cumque sed tempora possimus sit.</p>
+        </div>
+    </section>
+         </section>
+</section>
+
+
+
+<footer id="footer" class="section-fa-link">
+  
+    <div id="footer-container">
         
-    }
-    .personal-info {
-        width: 90%;
-
-    }
-    .mohannad {
-        top: 15.8rem;
-        left:-50px;
-        /* right: 2.5rem; */
-        font-size: 6rem; 
-        z-index: 40;
-        padding:0;
-        margin:0;
-       
-    }
-    .sabea {
-        left: 8rem;
-        top: 21rem;
-        font-size: 6rem;
-        z-index:70;
-        padding:0;
-        margin:0;
-    }
-    .details {
-       top:34rem;
-       left:0;
-        font-size: 1.5rem;
-        padding: .2rem;
-       
+    <div class="socials">
+        <p>Feel free to follow me on:</p>
         
-    }
- 
-#skills-services{
-    height: 700px;
-   /* padding: 1rem .5rem; */
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,1fr);
-    /* justify-content: center; */
-   padding:.75rem;
-   
-   
-}
-.why{  
-
-   grid-row: 1/2;
-   margin:0;
-   padding: 0;
- }
-.why__heading {font-size: 1.4rem;}
-.why__list {
-  padding: 1rem 1rem .5rem 1.5rem;
-    font-size: 16px;
-    font-family: 'Carter One', cursive;
-    font-display: 1;
-    letter-spacing: 0;
- }
-.services {
-    align-self: start;
-    grid-column: 1/2;
-    grid-row: 2/3;
-    width: 100%;
-    height: 330px;
-    margin:0;
-   
- }
-.services h1 {font-size: 2rem;}
- .skills {
-    height: 85%;
-    /* border: 1px solid black; */
-    /* box-shadow: inset 0 0 1px 1px black; */
-    overflow-y: scroll;
-    grid-template-columns: repeat(2,1fr);
-    box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.311);
- }
-
- footer {height: 450px;}
-
-#footer-container {
-width: 100%;
-display: grid;
-grid-template-columns: 1fr;
-border:none;
-margin:0;
-padding:0 .75rem;
-
- }
- .form-container{
-    grid-row: 1/2;
-    width: 100%;
- }
-
-.form-container label{ margin-left: 2.5rem;}
-.form-container h1 {font-size:25px}
-.form-container h1 {margin-top:.5rem;}
-.form-container button {
-    margin:1rem auto;
-     font-size: 14px;
-}
-.socials {
-    display: flex;
-    margin-top: .5rem;
-    justify-content: center;
-   
- }
-.socials a {
-    padding:.57rem;
-    background-color: unset;
-    font-size: 20px;
- }
- .socials p { display: none}
- .legal {width: 100%;}
- .legal h4 {display: none;}
- .legal a {font-size: 13px;}
- .rights {grid-row: 4/5;}
-
-/* Legal Styling */
-
-#container {
-    padding:.5rem .5rem;
-
-}
-#sections-box {
-width:100%;
-font-family: 'carter one';
-font-size: 13px;
-/* padding-top: 6rem; */
-margin-top: 4rem;
-
-}
-
-.legal-container {
-margin-bottom: 2rem;
-box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.181);
-border-radius: 5px;
-background-color: rgb(255, 254, 254);
-
-}
-.legal-container h1 {
-font-size: 30px;
-margin: 1rem;
-
-}
-}
+        <a href="https://www.facebook.com/Thakerah/"><i class="fa-brands fa-twitter "></i> <span>twitter</span></a>
+        <a href="https://www.facebook.com/Thakerah/"><i class="fa-brands fa-facebook "></i> <span>facebook</span></a>
+        <a href="https://www.codewars.com/users/MohannadSabea"> 
+            <i class="fa-brands fa-connectdevelop"></i> <span>codewars</span></a>
+            
+        <a href="https://github.com/MohannadSabaa"><i class="fa-brands fa-github"></i> <span>github</span></a>
+        <a href="https://www.freecodecamp.org/MohannadSabaa"><i class="fa-brands fa-free-code-camp "></i> <span>freecodecamp</span></a>
+    </div>
+    <div class="legal">
+        <h4>Legal</h4>
+        <a href="/policy.html">Terms & Conditions</a>
+        <a href="/policy.html">Privacy policy</a>
+        <a href="/policy.html">Terms of Use</a>
+    
+    </div>
+    
+        <div class="form-container">
+            <h1>Join Me</h1>
+    <form  id="form" action="#">
+       <div class="inputs-container">
+        <div><label for="user-name">Username</label>
+            <input type="text" name="user-name" id="user-name">
+        </div>
+        <div><label for="user-name">Password</label>
+            <input type="text" name="user-name" id="user-name">
+        </div>
+       </div>
+                <button>
+                    SUBSCRIBE NOW
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <p class="rights">All copyrights reserved 2023</p>
+    </footer>
+        
+</body>
+</html>
